@@ -8,6 +8,8 @@ const App = () => {
       <CommentDetail />
       <CommentDetail />
       <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
     </div>
   );
 };
