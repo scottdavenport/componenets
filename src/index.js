@@ -8,21 +8,21 @@ const App = () => {
       <CommentDetail
         author="Sam"
         timeAgo="Today at 4:23PM"
-        text="Great blog!"
+        content="Great blog!"
         avatar="https://source.unsplash.com/random"
       />
       <hr></hr>
       <CommentDetail
         author="Alex"
         timeAgo="Today at 2:00AM"
-        text="It really is nicely done!"
+        content="It really is nicely done!"
         avatar="https://source.unsplash.com/random"
       />
       <hr></hr>
       <CommentDetail
         author="Jane"
         timeAgo="Yesterday at 1:53PM"
-        text="I tend to disagree."
+        content="I tend to disagree."
         avatar="https://source.unsplash.com/random"
       />
     </div>
