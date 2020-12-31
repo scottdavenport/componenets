@@ -6,14 +6,14 @@ import ApprovalCard from './ApprovalCard';
 const App = () => {
 	return (
 		<div className="ui container comments">
-			<ApprovalCard />
-			<CommentDetail
-				author="Sam"
-				timeAgo="Today at 4:23PM"
-				content="Great blog!"
-				avatar="https://source.unsplash.com/random"
-			/>
-			<hr></hr>
+			<ApprovalCard>
+                <CommentDetail
+                    author="Sam"
+                    timeAgo="Today at 4:23PM"
+                    content="Great blog!"
+                    avatar="https://source.unsplash.com/random"
+                />
+            </ApprovalCard>
 			<CommentDetail
 				author="Alex"
 				timeAgo="Today at 2:00AM"
